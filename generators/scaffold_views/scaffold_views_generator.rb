@@ -59,7 +59,7 @@ class ScaffoldViewsGenerator < Rails::Generator::NamedBase
   protected
     # Override with your own usage banner.
     def banner
-      "Usage: #{$0} controller_view ModelName [field:type field:type]"
+      "Usage: #{$0} scaffold_views ModelName [field:type field:type]"
     end
 
     def scaffold_views
